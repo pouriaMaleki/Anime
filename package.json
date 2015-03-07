@@ -1,0 +1,17 @@
+{
+  "name": "Anime",
+  "version": "0.0.1",
+  "description": "Simple animator",
+  "main": "js/Animator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "animator",
+    "animation",
+    "dom animation"
+  ],
+  "author": "Pouria Maleki",
+  "repository": "https://github.com/PouriaMaleki/Anime",
+  "license": "MIT"
+}
