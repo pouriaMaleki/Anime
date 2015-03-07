@@ -16,7 +16,7 @@ Installation
 API
 ---
 
-    anime = require('Anime');
+    anime = require('anime');
 
     duration = 3000; // duration in ms
 

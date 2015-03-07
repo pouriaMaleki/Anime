@@ -1,0 +1,103 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . C:\Users\Pouria\AppData\Roaming\npm-cache\3a52ce78-.lock
+10 verbose tar pack [ 'C:\\Users\\Pouria\\AppData\\Roaming\\npm-cache\\Anime\\0.0.1\\package.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball C:\Users\Pouria\AppData\Roaming\npm-cache\Anime\0.0.1\package.tgz
+12 verbose folder .
+13 info prepublish Anime@0.0.1
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. C:\Users\Pouria\AppData\Roaming\npm-cache\1f1177db-tar.lock
+16 silly lockFile 486637ae-pm-cache-Anime-0-0-1-package-tgz tar://C:\Users\Pouria\AppData\Roaming\npm-cache\Anime\0.0.1\package.tgz
+17 verbose lock tar://C:\Users\Pouria\AppData\Roaming\npm-cache\Anime\0.0.1\package.tgz C:\Users\Pouria\AppData\Roaming\npm-cache\486637ae-pm-cache-Anime-0-0-1-package-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 486637ae-pm-cache-Anime-0-0-1-package-tgz tar://C:\Users\Pouria\AppData\Roaming\npm-cache\Anime\0.0.1\package.tgz
+21 silly lockFile 486637ae-pm-cache-Anime-0-0-1-package-tgz tar://C:\Users\Pouria\AppData\Roaming\npm-cache\Anime\0.0.1\package.tgz
+22 silly lockFile 61d1375b-ng-npm-cache-Anime-0-0-1-package C:\Users\Pouria\AppData\Roaming\npm-cache\Anime\0.0.1\package
+23 verbose lock C:\Users\Pouria\AppData\Roaming\npm-cache\Anime\0.0.1\package C:\Users\Pouria\AppData\Roaming\npm-cache\61d1375b-ng-npm-cache-Anime-0-0-1-package.lock
+24 silly lockFile 61d1375b-ng-npm-cache-Anime-0-0-1-package C:\Users\Pouria\AppData\Roaming\npm-cache\Anime\0.0.1\package
+25 silly lockFile 61d1375b-ng-npm-cache-Anime-0-0-1-package C:\Users\Pouria\AppData\Roaming\npm-cache\Anime\0.0.1\package
+26 silly lockFile 3a52ce78- .
+27 silly lockFile 3a52ce78- .
+28 silly publish { name: 'Anime',
+28 silly publish   version: '0.0.1',
+28 silly publish   description: 'Simple animator',
+28 silly publish   main: 'js/Animator.js',
+28 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+28 silly publish   keywords: [ 'animator', 'animation', 'dom animation' ],
+28 silly publish   author: { name: 'Pouria Maleki' },
+28 silly publish   repository: { type: 'git', url: 'https://github.com/PouriaMaleki/Anime' },
+28 silly publish   license: 'MIT',
+28 silly publish   readme: 'Simple Animator\r\n===============\r\n\r\nSimply set only one request for animation on browser and handle your callback.\r\n\r\nIt request animation frame continuously if any animation exist.\r\n\r\nUse it like other Browserify/CommonJS modules.\r\n\r\nInstallation\r\n------------\r\n\r\n\r\n\t$ npm install anime\r\n\r\nAPI\r\n---\r\n\r\n    anime = require(\'Anime\');\r\n\r\n    duration = 3000; // duration in ms\r\n\r\n    callback = function(progress){\r\n\r\n    \tconsole.log(progress);\r\n    \t// shows progress normal values(from 0 to 1)\r\n\r\n    }\r\n\r\n    handle = anime.animate(duration, callback);\r\n\r\n    handle.pause();\r\n\r\n    handle.continue();\r\n\r\n    handle.cancel();\r\n\r\n\r\n\r\n\r\nSample of multiple requests\r\n\r\n    handle1 = anime.animate(1000, callback1);\r\n    handle2 = anime.animate(2000, callback2);\r\n    handle3 = anime.animate(3000, callback3);\r\n\r\n',
+28 silly publish   readmeFilename: 'readme.md',
+28 silly publish   gitHead: '145d7ab3d1715157ac3fd174bdc2bb1229da9015',
+28 silly publish   bugs: { url: 'https://github.com/PouriaMaleki/Anime/issues' },
+28 silly publish   homepage: 'https://github.com/PouriaMaleki/Anime',
+28 silly publish   _id: 'Anime@0.0.1',
+28 silly publish   _shasum: 'a13d28fe34bd41afc3a06d256d2200b2b28d83f3',
+28 silly publish   _from: '.' }
+29 verbose request where is /Anime
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id f6e9dab7b3e764dc
+32 verbose url raw /Anime
+33 verbose url resolving [ 'https://registry.npmjs.org/', './Anime' ]
+34 verbose url resolved https://registry.npmjs.org/Anime
+35 verbose request where is https://registry.npmjs.org/Anime
+36 info trying registry request attempt 1 at 10:44:48
+37 http PUT https://registry.npmjs.org/Anime
+38 http 403 https://registry.npmjs.org/Anime
+39 verbose headers { date: 'Sat, 07 Mar 2015 07:14:55 GMT',
+39 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+39 verbose headers   'content-type': 'application/json',
+39 verbose headers   'cache-control': 'max-age=60',
+39 verbose headers   'content-length': '76',
+39 verbose headers   'accept-ranges': 'bytes',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   'x-served-by': 'cache-iad2137-IAD',
+39 verbose headers   'x-cache': 'MISS',
+39 verbose headers   'x-cache-hits': '0',
+39 verbose headers   'x-timer': 'S1425712495.064741,VS0,VE323',
+39 verbose headers   'keep-alive': 'timeout=10, max=50',
+39 verbose headers   connection: 'Keep-Alive' }
+40 error publish Failed PUT 403
+41 error Error: forbidden New packages must have all-lowercase names: Anime
+41 error     at RegClient.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:300:14)
+41 error     at Request._callback (c:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:238:65)
+41 error     at Request.self.callback (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:123:22)
+41 error     at Request.emit (events.js:98:17)
+41 error     at Request.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:893:14)
+41 error     at Request.emit (events.js:117:20)
+41 error     at IncomingMessage.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:844:12)
+41 error     at IncomingMessage.emit (events.js:117:20)
+41 error     at _stream_readable.js:938:16
+41 error     at process._tickCallback (node.js:419:13)
+42 error If you need help, you may report this *entire* log,
+42 error including the npm and node versions, at:
+42 error     <http://github.com/npm/npm/issues>
+43 error System Windows_NT 6.1.7601
+44 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+45 error cwd D:\xampp\htdocs\Animator
+46 error node -v v0.10.30
+47 error npm -v 1.4.21
+48 verbose exit [ 1, true ]

@@ -1,5 +1,5 @@
 {
-  "name": "Anime",
+  "name": "anime",
   "version": "0.0.1",
   "description": "Simple animator",
   "main": "js/Animator.js",
