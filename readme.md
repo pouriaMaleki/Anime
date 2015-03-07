@@ -11,12 +11,12 @@ Installation
 ------------
 
 
-	$ npm install anime
+	$ npm install simple-animator
 
 API
 ---
 
-    anime = require('anime');
+    animator = require('simple-animator');
 
     duration = 3000; // duration in ms
 
@@ -27,7 +27,7 @@ API
 
     }
 
-    handle = anime.animate(duration, callback);
+    handle = animator.animate(duration, callback);
 
     handle.pause();
 
@@ -40,7 +40,7 @@ API
 
 Sample of multiple requests
 
-    handle1 = anime.animate(1000, callback1);
-    handle2 = anime.animate(2000, callback2);
-    handle3 = anime.animate(3000, callback3);
+    handle1 = animator.animate(1000, callback1);
+    handle2 = animator.animate(2000, callback2);
+    handle3 = animator.animate(3000, callback3);
 
